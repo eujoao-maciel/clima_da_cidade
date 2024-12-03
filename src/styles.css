@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: linear-gradient(to top, #e18049, #581f1f);
+}
+
+main {
+    background-color: #6c0f0f;
+    border-radius: 7px;
+}
+
+.hide {
+    display: none;
+}
+
+main header h1 {
+    color: #f2f2f2;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+main header input {
+    padding: .9rem;
+    max-width: 100%;
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+}
+
+main header button {
+    margin-left: 14px;
+    padding: .9rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+section {
+    border-top: 1px solid #fff;
+    width: 80%;
+}
+
+section #city_name {
+    color: #fff;
+}
+
+section #city_info img {
+    height: 30px;
+}
+
+footer {
+    width: 80%;
+    border-top: 1px solid #fff;
+}
