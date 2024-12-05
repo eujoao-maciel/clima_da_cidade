@@ -73,7 +73,7 @@ const showWeatherData = async(city) => {
         cityName.innerText = data.name
         countryFlag.setAttribute("src", `https://flagsapi.com/${data.sys.country}/flat/64.png`)
         weatherInfo.innerText = data.weather[0].description
-        weatherIcon.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
+        weatherIcon.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
         temperatureInfo.innerHTML = `${Math.floor(data.main.temp)}`
 
         changeBackground(Math.floor(data.main.temp))
